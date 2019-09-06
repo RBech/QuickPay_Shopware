@@ -1,7 +1,10 @@
 {
   "name": "quickpay/shopware",
-  "type": "shopware-frontend-plugin",
+  "type": "shopware-plugin",
   "require": {
     "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "QuickPayPayment"
   }
 }
